@@ -46,7 +46,6 @@ end
 # true
 # else
 # %w(array).all? { |word| word.length <= 4 }
-end
 
 # %w(array).all? { |word| word.length <= 4 }
 # %w[ant bear cat].any? { |word| word.length >= 3 } #=> true
