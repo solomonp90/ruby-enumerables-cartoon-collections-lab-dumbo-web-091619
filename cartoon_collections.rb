@@ -33,9 +33,9 @@ end
 
 if %w(array).any? { |word| word.length >= 3}
 end
-else if condition %w(array).all? { |word| word.length == 4}
 
-end
+
+
 
 # end
 
