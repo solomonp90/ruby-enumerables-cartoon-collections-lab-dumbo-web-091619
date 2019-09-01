@@ -29,12 +29,12 @@ end
 # (1..4).map { |i| i*i }
 # (1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]
 
-def long_planeteer_calls(array)
-
-while %w(array).any? { |word| word.length >= 3 do
-  %w(array).all? { |word| word.length == 4
-end
-end
+# def long_planeteer_calls(array)
+#
+# while %w(array).any? { |word| word.length >= 3 do
+#   %w(array).all? { |word| word.length == 4
+# end
+# end
 
 
 
