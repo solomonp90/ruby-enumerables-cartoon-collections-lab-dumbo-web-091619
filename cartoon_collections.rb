@@ -31,10 +31,10 @@ end
 
  def long_planeteer_calls(array)
 
-if %w(array).any? { |word| word.length >= 3
+if %w(array).any? { |word| word.length >= 3}
 end
 else
-%w(array).all? { |word| word.length == 4
+%w(array).all? { |word| word.length == 4}
 end
 
 # %w(array).all? { |word| word.length == 4
