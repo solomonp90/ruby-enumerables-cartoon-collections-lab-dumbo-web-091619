@@ -26,7 +26,8 @@ def find_the_cheese(array=nil)
   #cheese_array = array.select {|v| v =~ /[cheese_types]/ }
 #array.select{|e| e.""}
 #array.find { |i| i %  }
-array.select { |num|  num.[1]?  }
+# array.select { |num|  num.[1]?  }
+array.select {|v| v =~ /[cheese_types]/[0] }
 end
 # (1..10).find_all { |i|  i % 3 == 0 }   #=> [3, 6, 9]
 #
@@ -34,7 +35,7 @@ end
 #
 # [:foo, :bar].filter { |x| x == :foo }   #=> [:foo]
 #
-# a.select {|v| v =~ /[aeiou]/ } 
+# a.select {|v| v =~ /[aeiou]/ }
 
 
   # cheese_array = array.select {|v| v =~ /[cheese_types]/ }
