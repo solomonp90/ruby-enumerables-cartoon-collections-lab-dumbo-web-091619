@@ -3,21 +3,6 @@ def roll_call_dwarves(dwarves)
 
   }
 end
-# "#{dwarves[i]}"
-# output = []
-# %w(dwarves).each_with_index {|dwarves,index|puts dwarves[index]= }
-
-
-# Calls block with two arguments, the item and its index, for each item in enum. Given arguments are passed through to each().
-#
-# If no block is given, an enumerator is returned instead.
-#
- # hash = Hash.new
- # %w(cat dog wombat).each_with_index { |item, index|
- #   hash[item] = index
- # }
-# hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
-
 
 
 
