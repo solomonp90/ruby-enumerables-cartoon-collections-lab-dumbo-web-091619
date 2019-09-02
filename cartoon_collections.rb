@@ -39,5 +39,5 @@ def find_the_cheese(array)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_array = array.select {|v| v =~ /[cheese_types]/ }
-cheese_array.split()
+
 end
