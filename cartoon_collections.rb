@@ -27,7 +27,7 @@ if array.include?(cheese_types)do
   p cheese_types[0]
 end
 
-end
+
 # array.select {|v| v =~ /[cheese_types]/ }
 # a = [ "a", "b", "c" ]
 # a.include?("b")   #=> true
