@@ -27,7 +27,7 @@ def find_the_cheese(array)
 #array.select{|e| e.""}
 #array.find { |i| i %  }
 # array.select { |num|  num.[1]?  }
-array.include("#{cheese_types}")
+array.include? ("#{cheese_types}")
 end
 # array.select {|v| v =~ /[cheese_types]/ }
 # a = [ "a", "b", "c" ]
