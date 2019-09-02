@@ -19,7 +19,7 @@ array.any? { |word| word.length > 4}
 end
 
 
-def find_the_cheese(array)
+def find_the_cheese(array=nil)
   # the array below is here to help
 
   cheese_types = ["cheddar", "gouda", "camembert"]
