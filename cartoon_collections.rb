@@ -26,7 +26,7 @@ array.each
 if array.include?("#{cheese_types}")do
   puts "cheddar"
 end
-end
+
 
 # array.select {|v| v =~ /[cheese_types]/ }
 # a = [ "a", "b", "c" ]
