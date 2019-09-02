@@ -21,12 +21,8 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
+cheese_types = ["cheddar", "gouda", "camembert"]
 
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  #cheese_array = array.select {|v| v =~ /[cheese_types]/ }
-#array.select{|e| e.""}
-#array.find { |i| i %  }
-# array.select { |num|  num.[1]?  }
 
 end
 # array.select {|v| v =~ /[cheese_types]/ }
@@ -44,3 +40,11 @@ end
 
 
   # cheese_array = array.select {|v| v =~ /[cheese_types]/ }
+
+
+
+
+  #cheese_array = array.select {|v| v =~ /[cheese_types]/ }
+#array.select{|e| e.""}
+#array.find { |i| i %  }
+# array.select { |num|  num.[1]?  }
