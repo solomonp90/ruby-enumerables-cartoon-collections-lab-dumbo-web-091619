@@ -36,7 +36,7 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
-
+i=1
   cheese_types = ["cheddar", "gouda", "camembert"]
-array.select {|v| v =~ /[cheese_types]/ } 
+array.select {|v| v =~ /[cheese_types[i]]/ } 
 end
