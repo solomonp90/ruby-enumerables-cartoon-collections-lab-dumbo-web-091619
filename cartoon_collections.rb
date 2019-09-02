@@ -34,9 +34,9 @@ array.any? { |word| word.length > 4}
 end
 
 
-def find_the_cheese(strings=nil)
+def find_the_cheese(strings)
   # the array below is here to help
 
   cheese_types = ["cheddar", "gouda", "camembert"]
-"#{strings}".select { |e| e=- /[cheese_types]/ }  
+"#{strings}".select { |e| e=- /[cheese_types]/ }
 end
