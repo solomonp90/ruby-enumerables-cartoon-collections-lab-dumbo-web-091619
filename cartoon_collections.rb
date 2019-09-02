@@ -21,9 +21,14 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
+  n =[]
 cheese_types = ["cheddar", "gouda", "camembert"]
+if array.include?(cheese_types)do
+  n.push(cheese_types)
 
-
+end
+else
+  nil
 end
 # array.select {|v| v =~ /[cheese_types]/ }
 # a = [ "a", "b", "c" ]
