@@ -23,8 +23,8 @@ def find_the_cheese(array)
   # the array below is here to help
 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_array = array.select {|v| v =~ /[cheese_types]/ }
-array.find_all { |i|  "#{i+1}" "#{cheese_types}" } 
+  #cheese_array = array.select {|v| v =~ /[cheese_types]/ }
+array.find_all { |i|  "#{i+1}" "#{cheese_types}" }
 end
 # (1..10).find_all { |i|  i % 3 == 0 }   #=> [3, 6, 9]
 #
