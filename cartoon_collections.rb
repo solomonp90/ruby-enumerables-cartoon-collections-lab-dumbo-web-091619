@@ -34,27 +34,7 @@ array.any? { |word| word.length > 4}
 end
 
 
-
-
-# end
-
-# %w(array).all? { |word| word.length == 4
-# %w(array).any? { |word| word.length >= 3
-
-
-  #%w(array).all? { |word| word.length == 4 }
-# true
-# else
-# %w(array).all? { |word| word.length <= 4 }
-
-# %w(array).all? { |word| word.length <= 4 }
-# %w[ant bear cat].any? { |word| word.length >= 3 } #=> true
-# %w[ant bear cat].any? { |word| word.length >= 4 } #=> true
-# %w[ant bear cat].any?(/d/)                        #=> false
-# [nil, true, 99].any?(Integer)                     #=> true
-# [nil, true, 99].any?                              #=> true
-# [].any?                                           #=> false
-def find_the_cheese# code an argument here
+def find_the_cheese()
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
