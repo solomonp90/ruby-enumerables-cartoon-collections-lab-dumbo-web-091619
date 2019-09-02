@@ -38,5 +38,5 @@ def find_the_cheese(strings=nil)
   # the array below is here to help
 
   cheese_types = ["cheddar", "gouda", "camembert"]
-strings.select { |e| e=- /[cheese_types]/ }  
+(strings).select { |e| e=- /[cheese_types]/ }  
 end
