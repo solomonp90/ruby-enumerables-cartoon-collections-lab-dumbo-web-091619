@@ -41,11 +41,11 @@ def find_the_cheese(array)
   cheese_array = array.select {|v| v =~ /[cheese_types]/ }
 array.find_all {|i|i "#{cheese_types}"}
 end
-(1..10).find_all { |i|  i % 3 == 0 }   #=> [3, 6, 9]
-
-[1,2,3,4,5].select { |num|  num.even?  }   #=> [2, 4]
-
-[:foo, :bar].filter { |x| x == :foo }   #=> [:foo]
+# (1..10).find_all { |i|  i % 3 == 0 }   #=> [3, 6, 9]
+#
+# [1,2,3,4,5].select { |num|  num.even?  }   #=> [2, 4]
+#
+# [:foo, :bar].filter { |x| x == :foo }   #=> [:foo]
 
 
 
